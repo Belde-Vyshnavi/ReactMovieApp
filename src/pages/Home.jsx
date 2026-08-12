@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import MovieCard from '../components/MovieCard';
 import { fetchPopularMovies } from '../services/movieApi';
-
+//this is a Home page
 function Home() {
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(true);
